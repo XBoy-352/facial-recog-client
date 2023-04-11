@@ -8,7 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from "./Axios";
 
 function Login({ setToken }) {
   let navigate = useNavigate();

@@ -7,7 +7,7 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import AddCircleOutlineOutlinedIcon from "@material-ui/icons/AddCircleOutlineOutlined";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from "./Axios";
 import Form from "react-bootstrap/Form";
 
 function AddCriminal({ token }) {

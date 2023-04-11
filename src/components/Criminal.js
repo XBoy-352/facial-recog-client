@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-import axios from "axios";
+import axios from "./Axios";
 import Webcam from "react-webcam";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
